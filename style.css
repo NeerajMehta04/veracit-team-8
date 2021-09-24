@@ -1,0 +1,221 @@
+*
+{
+    margin: 0;
+    padding: 0;
+font-family: 'Noto Sans', sans-serif;
+    
+}
+.header
+{
+    min-height: 100%; 
+    width: 100%;
+    border-color:#4BCECA;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.logo{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 10%;
+}
+.logo-schedule{
+    position: absolute;
+    margin-left: 0;
+    margin-top: 10%;
+}
+
+nav
+{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav-img{
+    width: 150px;
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after
+{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10 0 30px ;
+    font-size: 20px;
+    color: white;
+}
+.more-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.more-btn:hover{
+    border: 1px solid red;
+    background: green;
+    transition: 1s;
+}
+
+/*--- course---*/
+.story{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+h1{
+    font-size: 36px;
+    font-weight: 600px;
+}
+p{
+    color: deepskyblue;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 10px
+}
+.row
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.story-col{
+    flex-basis: 31%;
+    background: #A7E5E3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    
+}
+.story-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+
+/*---call to action---*/
+
+.cta{
+    margin: 30px auto;
+    width: 80%;
+    background-image:url(https://lh3.googleusercontent.com/V4AxoiKLmIbPQt5YTyDWZzpD0GpfoTSKC_yu5Ir3Nfo-zslOH8IuPYpoC-3VGyfyViqhF7sZe_DIJ7V9vS42SNFVDQjdxpaqvAJ0X8-flTFaa2JT0e6R9_sa2UJZX9ES-geHP7W5nQ=w2400?source=screenshot.guru);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+.cta h1{
+    color: saddlebrown;   
+    position: relative;
+    top: -150px;
+    text-shadow: 10px 10px 10px #92BCE3 ;
+    padding: 20;
+    
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;    
+}
+.icons
+{
+ cursor: pointer;    
+}   
+
+
+/*---Schedule--------------------------------*/
+
+.schedule-header
+{
+    min-height: 100%; 
+    width: 100%;
+    border-color:#4BCECA;
+    background-color: cornflowerblue;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.schedule-text-box{
+    width: 90%;
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.schedule-text-box h1{
+    font-size: 40px;
+}
+.schedule-text-box p{
+    position: relative;
+    margin: 10 0 0px ;
+    font-size: 20px;
+    color: white;
+}
